@@ -1,0 +1,73 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://img-a.udemycdn.com/course/750x422/1381668_f7dc.jpg);
+    
+}
+
+h1 {
+    margin-left: 510px;
+    text-align: center;
+    font-size: 68px;
+    color:blue;
+    background-color: rgb(87, 187, 190);
+    display: inline;
+    padding: 15px;
+    border: 3px solid blue;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0;
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.card:hover {
+
+    box-shadow: 0 16px 32px 0;
+}
+
+
+.cal-head #inputid{
+
+width: 335px;
+height: 100px;
+font-weight: bold;
+text-align: right;
+font-size: 25px;
+padding: 0 5px;
+letter-spacing: 2px;
+}
+
+.btm{
+
+width: 87px;
+height: 70px;
+font-weight: bold;
+background-color: rgb(80, 124, 218);
+color:white;
+font-size: 16px;
+}
+
+.btm-right{
+
+background-color: rgb(72, 70, 216);
+}
+
+.equl-btm{
+    background-color: rgb(8, 156, 124);
+}
+
+.btm:hover{
+
+background-color: rgb(219, 88, 215);
+
+}

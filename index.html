@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+<br>
+    <h1>Calculator</h1>
+    <div>
+        <div class="card">
+            <div class="cal-head">
+                <input type="text" style="background-color: khaki;" id="inputid" maxlength="10" name="calcuate">
+            </div>
+
+            <div class="cal-body">
+                <div>
+                    <input type="button" class="btm" value="C" onclick="clearresult()" >
+                    <input type="button" class="btm" value="^" onclick="getinput('^')">
+                    <input type="button" class="btm" value="%" onclick="getinput('%')">
+                    <input type="button" class="btm btm-right" value="/" onclick="getinput('/')">
+                </div>
+
+                <div>
+                    <input type="button" class="btm" value="7" onclick="getinput(7)">
+                    <input type="button" class="btm" value="8" onclick="getinput(8)">
+                    <input type="button" class="btm" value="9" onclick="getinput(9)">
+                    <input type="button" class="btm btm-right" value="X" onclick="getinput('*')">
+                </div>
+
+                <div>
+                    <input type="button" class="btm" value="4" onclick="getinput(4)">
+                    <input type="button" class="btm" value="5" onclick="getinput(5)">
+                    <input type="button" class="btm" value="6" onclick="getinput(6)">
+                    <input type="button" class="btm btm-right" value="-" onclick="getinput('-')">
+                </div>
+
+                <div>
+                    <input type="button" class="btm" value="1" onclick="getinput(1)">
+                    <input type="button" class="btm" value="2" onclick="getinput(2)">
+                    <input type="button" class="btm" value="3" onclick="getinput(3)">
+                    <input type="button" class="btm btm-right" value="+" onclick="getinput('+')">
+                </div>
+
+                <div>
+                    <input type="button" class="btm" value="0" onclick="getinput(0)">
+                    <input type="button" class="btm" value="." onclick="getinput('.')">
+                    <input type="button" class="btm" value="DEL" onclick="del()">
+                    <input type="button" class="btm equl-btm" value="=" onclick="calc()">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
